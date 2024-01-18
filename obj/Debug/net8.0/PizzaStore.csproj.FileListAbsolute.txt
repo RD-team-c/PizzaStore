@@ -30,3 +30,4 @@ C:\Users\jeric\OneDrive\code\Microsoft\dotNET\PizzaStore\bin\Debug\net8.0\Swashb
 C:\Users\jeric\OneDrive\code\Microsoft\dotNET\PizzaStore\obj\Debug\net8.0\PizzaStore.csproj.AssemblyReference.cache
 C:\Users\jeric\OneDrive\code\Microsoft\dotNET\PizzaStore\obj\Debug\net8.0\PizzaStore.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\jeric\OneDrive\code\Microsoft\dotNET\PizzaStore\obj\Debug\net8.0\PizzaStore.csproj.CopyComplete
+C:\Users\jeric\OneDrive\code\Microsoft\dotNET\PizzaStore\obj\Debug\net8.0\PizzaStore.sourcelink.json
