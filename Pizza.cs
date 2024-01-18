@@ -1,4 +1,6 @@
 using Microsoft.EntityFrameworkCore;
+
+
 namespace PizzaStore.Models {
  public class Pizza {
   public int Id { get; set; }
