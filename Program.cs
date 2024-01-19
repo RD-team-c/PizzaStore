@@ -10,7 +10,10 @@ using PizzaStore.Models; // v1.1
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<PizzaDb>(options => options.UseInMemoryDatabase("items")); // v1.1
+// v1.2 ---add connection string
+var connectionString = builder.Configuration.GetConnectionString("Pizzas") ?? "Data Source=Pizzas.db"; // checks configuration for connection ("string") else data source=pizzadb
+
+builder.Services.AddSqlite<PizzaDb>(connectionString); // v1.2
 
 builder.Services.AddEndpointsApiExplorer();
 
